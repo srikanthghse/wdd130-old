@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap')
+
+@font-face {
+    font-family: "Rock Salt";
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+body{
+    padding: 10px;
+    background-color: blueviolet;
+    font-family: 'Rock Salt', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: 'Rock Salt', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    border: 2px;
+    padding: 5px;
+}*/
+
+
+h2{
+    color: rgb(red, green, blue);
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-shadow: 0cqmax;
+}
+
+img {width: 350px;}
+
+/* this comment works*/
+h6{
+    text-align: center;
+    font-size: 15px;
+}

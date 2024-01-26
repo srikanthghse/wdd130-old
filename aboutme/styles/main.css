@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: white;
+    text-align:left
+    font-family: verdana;
+}
+
+h2{
+    color: rgb(13, 12, 12);
+    text-align:left
+    font-family: verdana;
+}
+
+p{
+    font-family: verdana;
+    font-size: 15px;
+}
+
+img {width: 350px;}
