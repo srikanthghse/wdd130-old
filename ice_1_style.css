@@ -10,10 +10,21 @@ body {
  
 header {
     display: block;
-    margin-right: 10%;
+    margin-right: 0%;
     text-align: center;
 }
- 
+
+header p {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -23,12 +34,16 @@ main {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-right: 10%;
+    margin-right: 0%;
 }
  
 #frontend {
     display: block;
     margin: 0 auto;
+    height: 300px;
+    max-height: 300px;
+    max-width: 100%;
+    width: 100%;
 }
 
 .graphics {
@@ -44,6 +59,6 @@ main {
 p {
     text-align: center;
     font-weight: bold;
-    margin-right: 13%;
+    margin-right: 3%;
     font-size: 20px;
 }
